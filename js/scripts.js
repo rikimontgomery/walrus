@@ -1,13 +1,6 @@
 $(document).ready(function() {
-  jQuery(".clickable").click(function() {
-    jQuery("#initially-showing").slideToggle("swing");
-    $("#initially-hidden").slideToggle();
+  $(".clickable").click(function() {
+    $("#initially-showing").toggle();
+    $("#initially-hidden").toggle();
   });
-
-  $("p").click(function() {
-    $(".sealionfriend-hiding").toggle();
-    $(".sealionfriend-showing").toggle();
-  });
-
-
 });

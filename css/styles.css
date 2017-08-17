@@ -1,4 +1,5 @@
-#initially-hidden {
+
+#initially-showing {
   display: none;
 }
 
@@ -9,8 +10,4 @@
 
 .clickable:hover {
   text-decoration: underline;
-}
-
-.sealionfriend-hiding {
-  display: none;
 }
